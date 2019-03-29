@@ -14,8 +14,8 @@ if [ -n "$BASH_VERSION" ]; then
     if [ -f "$HOME/.bashrc" ]; then
 	. "$HOME/.bashrc"
     fi
-    if [ -f "$HOME/.sharedprofile" ]; then
-    . $HOME/.sharedprofile
+    if [ -f "$HOME/.shareprofile" ]; then
+    . $HOME/.shareprofile
     fi
 fi
 
